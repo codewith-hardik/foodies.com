@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <!-- ! fortawesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- ! bootstrap cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- !my style  -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsiv.css" />
+  </head>
+    <!--!  navbar  -->
+    <header>
+      <nav class="navbar navigation-wrap navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="/assets/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#explore-foods">Explore Foods</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Reviews</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQs</a>
+              </li>
+              <li>
+                <button class="main-btn">12345 54321</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ! section-1 top banner  -->
+    <section id="home">
+      <div class="container-fluid px-0 top-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-6">
+              <h1>Good food choices are good investments.</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
+                et purruse a odio finibus bibendum amet leo.
+              </p>
+              <div class="mt-4">
+                <button class="main-btn">
+                  Order now <i class="fa-solid fa-cart-shopping ps-3"></i>
+                </button>
+                <button class="white-btn ms-lg-4 mt-lg-0 mt-4">
+                  Order now <i class="fa-solid fa-angle-right ps-3"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! section-2 counter  -->
+    <section class="counter">
+      <section class="counter-section m">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count1"></span>+</h2>
+              <p>SAVINGS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count2"></span>+</h2>
+              <p>PHOTOS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count3"></span>+</h2>
+              <p>ROCKETS</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h2><span id="count4"></span>+</h2>
+              <p>GLOBES</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ! section-3 about   -->
+    <section class="about" id="about">
+      <div class="about-section wrapper">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+              <div class="card border-0">
+                <img src="/assets/img/img-1.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 text-sec">
+              <h2>
+                We pride ourselves on making real food from the best
+                ingredients.
+              </h2>
+              <p>
+                Lorem Aut consequatur excepturi explicabo illo doloremque dolor,
+                autem repellat itaque illum qui animi saepe reprehenderit,
+                maxime veniam? Pariatur consequatur accusamus illo voluptate
+                ipsa ullam voluptatibus animi architecto et ratione. Quidem!
+              </p>
+              <button class="main-btn mt-4">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="container food-type">
+          <div class="row align-item-center">
+            <div class="col-lg-5 col-md-12 text-sec md-lg-0 mb-5">
+              <h2>
+                We Make everything by hand with the best possible ingredients.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                architecto reiciendis impedit amet quas debitis? Mollitia
+                reprehenderit accusamus, ad pariatur assumenda ullam
+                exercitationem esse aspernatur, maiores ab ipsam, voluptatum
+                rerum.
+              </p>
+              <ul class="list-unstyled py-3">
+                <li>Etiam sed dolor ac diam volutpat.</li>
+                <li>Erat volutpat aliquet imperdiet.</li>
+                <li>Purus a odio finiibus bibendum.</li>
+              </ul>
+              <button class="main-btn mt-4">Learn More</button>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="card border-0">
+                <img src="/assets/img/img-2.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! section-3 story -->
+    <section id="story">
+      <div class="story-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content">
+                <h2>
+                  When a man's stomach is full it makes on difference whether he
+                  is rich or poor.
+                </h2>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Itaque quasi ratione laboriosam assumenda optio doloribus
+                  accusamus dolorum! Porro repellat laudantium molestiae
+                  architecto aliquid quis voluptatem sit reprehenderit optio
+                  eveniet. Dolor?
+                </p>
+                <button class="main-btn mt-3 ">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! section-4 explore foods  -->
+     <section id="explore-foods" class="explore-foods">
+      <div class="explore-food wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-content text-center">
+                <h2>Explore Our Foods </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem temporibus, suscipit itaque quas excepturi commodi rem? Rerum adipisci excepturi repellat quisquam eos labore animi harum quia accusantium omnis! Reiciendis, atque.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="/assets//img/img-3.jpg" class="img-fliud" alt="">
+                <div class="pt-3">
+                  <h4>Rainbow Vagetable Sandwich</h4>
+                  <p>Time: 15 - 20 Minutes | Serves: 1</p>
+                  <span> $10.50<del>$12.50</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="/assets//img/img-5.jpg" class="img-fliud" alt="">
+                <div class="pt-3">
+                  <h4>Raspberry Stuffed French Toast</h4>
+                  <p>Time: 15 - 20 Minutes | Serves: 1</p>
+                  <span> $10.50<del>$12.50</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+              <div class="card">
+                <img src="/assets//img/img-4.jpg" class="img-fliud" alt="">
+                <div class="pt-3">
+                  <h4>Vegetarian Burger </h4>
+                  <p>Time: 30 - 45 Minutes | Serves: 1</p>
+                  <span> $10.50<del>$12.50</del></span>
+                  <button class="mt-4 main-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- ! section-5 testimonial  -->
+    <section id="testimonials">
+      <div class="wrapper testimonial-section">
+        <div class="container text-ccenter">
+          <div class="text-center pb-4">
+            <h2>Testimonial</h2>
+
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-lg-10 offset-lg-1">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="carousel-caption">
+                      <img src="/assets/review/review-1.jpg" alt="">
+                      <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h5>John Doe-Ux Designer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="/assets/review/review-2.jpg" alt="">
+                      <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h5>Maccy Doe - Front Designer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="carousel-caption">
+                      <img src="/assets/review/review-1.jpg" alt="">
+                      <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                      <h5>John Doe-Ux Designer</h5>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+    <!-- ! section-6 faq  -->
+     <section id="faq">
+      <div class="faq wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="text-center pb-4">
+                <h2>Frequently Asked Questions</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span>Is Foodies Bread really baked fresh each day?</h4>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.Separted they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            </div>
+            <div class="col-sm-6 mb-4">
+              <h4><span>~</span> What are the opening hours of Foodies Bread?</h4>
+              <p>Foodies Bread is open from 8:00 AM to 8:00 PM, Monday to Saturday. We are closed on Sundays and public holidays.</p>
+          </div>
+          
+          <div class="col-sm-6 mb-4">
+              <h4><span>~</span> Do you offer gluten-free bread options?</h4>
+              <p>Yes, we offer a variety of gluten-free bread options. Please check with our staff for the daily availability of gluten-free items.</p>
+          </div>
+          
+          <div class="col-sm-6 mb-4">
+              <h4><span>~</span> Can I place a custom order for a special event?</h4>
+              <p>Absolutely! We accept custom orders for events like birthdays, weddings, and corporate gatherings. Please contact us at least 48 hours in advance.</p>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!--!  section-7 book food  -->
+     <section id="book-food">
+    <div class="book-food">
+      <div class="container book-food-text">
+        <div class="row text-center">
+          <div class="col-lg-9 col-md-12">
+            <h2>Brked fresh daily by bakers with passion.</h2>
+          </div>
+          <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+            <button class="main-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+    </section>
+
+    <!-- !section-8 newsletter  -->
+   <section id="newsletter">
+    <div class="newsletter wrapper">
+      <div class="containter">
+        <div class="rew">
+          <div class="col-sm-12">
+            <div class="test-content text-center pb-4">
+              <h2>Hurry up! Subscribe our newsletter and ger 25% Off</h2>
+              <p>Limited time offer for this month. No credit card required.</p>
+            </div>
+            <form action="#" class="newsletter">
+              <div class="row ">
+                <div class="col-md-8 col-12">
+                  <input type="email" name="email" class="form-control" placeholder="Enter your email address">
+                </div>
+                <div class="col-md-4 col-12">
+                  <button class="main-btn" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+<!--!  section-9 footer  -->
+<footer id="footer">
+  <div class="footer py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <a href="#" class="footer-link">Register</a>
+          <a href="#" class="footer-link">Forum </a>
+          <a href="#" class="footer-link">Affiliate</a>
+          <a href="#" class="footer-link">FAQ </a>
+        </div>
+        <div class="footer-social pt-4 text-center">
+          <a href="#"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-youtube"></i></a>
+          <a href="#"> <i class="fab fa-dribbble"></i></a>
+          <a href="#"> <i class="fab fa-linkedin"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="col-sm-12">
+          <div class="footer-copy">
+            <div class="copy-right text-center pt-5">
+              <p class="text-light"> Copyright &copy; 2025 Foodies Bread.All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+     
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+    <!-- !my script  -->
+    <script src="/js/script.js"></script>
+    <!--!  bootstrap script cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
