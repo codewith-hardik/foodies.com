@@ -73,5 +73,5 @@ cd foodies.com
 
 Since this is a static template, no build steps are required. You can also use a local server (like Live Server extension in VSCode) to preview.
 
-✅ You’re ready to explore and customize FreshCart!
+✅ You’re ready to explore and customize Foodies.com!
 
